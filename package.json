@@ -1,0 +1,20 @@
+{
+  "name": "marina-do-leo",
+  "version": "1.0.0",
+  "description": "Marina do Léo — sistema de gestão de frota de barcos e marina",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node --no-warnings server.js",
+    "dev": "node --no-warnings --watch server.js",
+    "seed": "node --no-warnings server/seed-cli.js",
+    "test": "node --no-warnings --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
